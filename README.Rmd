@@ -1,0 +1,58 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-"
+)
+```
+
+# The UnitCircle Package
+
+As of now this package only containts the `uc.check` function wich checks whether the roots of a given polynomial lie outside the Unit circle.
+
+# Usage
+
+The function `uc.check` has the following Arguments:
+
+Argument | Description
+------------- | --------------------------------------------------------------------
+pol_  | A vector of polynomial coefficients in increasing order.
+plot_output  | Logical that defines whether a graphical output should be created.
+print_output  | Logical that defines whether to print the results.
+
+
+# Examples:
+
+```{r}
+library(UnitCircle)
+uc.check(pol_ = c(1,0,0.99999), plot_output = FALSE)
+```
+
+```{r}
+uc.check(pol_ = c(2,0,2.2,-3), plot_output = TRUE)
+```
+
+## Installation
+
+### Install from CRAN
+
+I'm sorry but installing UnitCircle from CRAN isn't possible atm.
+
+### Install the latest development version
+
+You can install the latest development version from github with
+
+```{r gh-installation, eval = FALSE}
+# install.packages("devtools")
+devtools::install_github("BerriJ/UnitCircle")
+```
+
+## License
+
+* **UnitCircle** is licensed under [GPL-3](LICENSE)
