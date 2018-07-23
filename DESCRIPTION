@@ -1,10 +1,10 @@
 Package: UnitCircle
 Type: Package
-Title: Check if roots of a polynomial lie outside the unit circle
-Version: 0.1.2
+Title: Check if Roots of a Polynomial Lie Outside the Unit Circle
+Version: 0.1.3
 Author: Jonathan Berrisch
 Maintainer: Jonathan Berrisch <Jonathan@Berrisch.biz>
-Description: This package contains the "uc.check" function which checks whether the roots of a given polynomial lie outside the Unit circle.
+Description: The uc.check() function checks whether the roots of a given polynomial lie outside the Unit circle. You can also easily draw an unit circle.
 License: GPL-3
 Encoding: UTF-8
 RoxygenNote: 6.0.1
