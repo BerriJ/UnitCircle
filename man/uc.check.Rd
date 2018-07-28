@@ -2,19 +2,19 @@
 % Please edit documentation in R/uc.check.R
 \name{uc.check}
 \alias{uc.check}
-\title{Check if roots lie outside the unit circle}
+\title{Check if Roots of a Polynomial Lie Outside the Unit Circle}
 \usage{
 uc.check(pol_, plot_output = T, print_output = T)
 }
 \arguments{
 \item{pol_}{the vector of polynomial coefficients in increasing order.}
 
-\item{plot_output}{Logical that defines wether to create a plot as output.}
+\item{plot_output}{Logical that defines whether to create a plot.}
 
-\item{print_output}{Logical that defines wether to print the results.}
+\item{print_output}{Logical that defines whether to print the results.}
 }
 \description{
-This function outputs the roots of the given polynomial. It also checke wether they lie outside the unit circle. Furthermore a plot is generated to illustrate the results in an intuitive way.
+This function outputs the roots of a given polynomial. It also checks whether they lie outside the unit circle and creates a plot to illustrate the results in an intuitive way.
 }
 \examples{
 uc.check(pol_ = c(1,0,0.999999999), plot_output = FALSE)

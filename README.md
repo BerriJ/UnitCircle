@@ -65,9 +65,13 @@ Installation
 
 ### Install from CRAN
 
-I'm sorry but installing UnitCircle from CRAN isn't possible atm.
+You can install the official Version from CRAN:
 
-### Install the latest development version
+``` r
+install.packages("UnitCircle")
+```
+
+### Install from Github
 
 You can install the latest development version from github with
 
