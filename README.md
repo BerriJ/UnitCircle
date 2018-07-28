@@ -71,7 +71,7 @@ You can install the official Version from CRAN:
 install.packages("UnitCircle")
 ```
 
-### Install the latest development version
+### Install from Github
 
 You can install the latest development version from github with
 
