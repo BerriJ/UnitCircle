@@ -42,7 +42,11 @@ uc.check(pol_ = c(2,0,2.2,-3), plot_output = TRUE)
 
 ### Install from CRAN
 
-I'm sorry but installing UnitCircle from CRAN isn't possible atm.
+You can Install the official Version from CRAN:
+
+```{r gh-installation, eval = FALSE}
+install.packages("UnitCircle")
+```
 
 ### Install the latest development version
 
