@@ -42,9 +42,9 @@ uc.check(pol_ = c(2,0,2.2,-3), plot_output = TRUE)
 
 ### Install from CRAN
 
-You can Install the official Version from CRAN:
+You can install the official Version from CRAN:
 
-```{r gh-installation, eval = FALSE}
+```{r cr-installation, eval = FALSE}
 install.packages("UnitCircle")
 ```
 
